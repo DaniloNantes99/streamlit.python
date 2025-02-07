@@ -7,14 +7,15 @@ def buscar_letra(banda, musica):
     letra = response.json()["lyrics"] if response.status_code == 200 else "" 
     return letra
 
+
 def salvar_sugestao(sugestao):
     with open("sugestoes.txt", "a") as f:
         f.write(sugestao + "\n")
 
     
-st.image("https://files.oaiusercontent.com/file-VT4dhdNg2qbAmwi6uUL2Rp?se=2025-02-07T02%3A07%3A37Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dd2c3db1f-680e-4dba-b1b8-d3264b307269.webp&sig=BDmu8q1CnTM5OVQR2bRnvlTzgl3myxbs/k4CnjSYMeE%3D")
+st.image("robo_dancante.webp", caption = "Robo ouvindo musica", use_column_width=True)
+st.title("A letra da sua musica!")
 
-st.title("Letras de musicas")
 
 st.info("Desenvolvido por Danilo Nantes")
 
