@@ -12,7 +12,7 @@ def salvar_sugestao(sugestao):
         f.write(sugestao + "\n")
 
     
-st.image("https://img.odcdn.com.br/cdn-cgi/image/width=1280,height=720,fit=cover/wp-content/uploads/2023/08/IA-poesia-musica.jpg")
+st.image("https://files.oaiusercontent.com/file-VT4dhdNg2qbAmwi6uUL2Rp?se=2025-02-07T02%3A07%3A37Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dd2c3db1f-680e-4dba-b1b8-d3264b307269.webp&sig=BDmu8q1CnTM5OVQR2bRnvlTzgl3myxbs/k4CnjSYMeE%3D")
 
 st.title("Letras de musicas")
 
